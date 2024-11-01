@@ -31,3 +31,16 @@ def greeting(name, age)
   puts "Hello, my name is #{name}, I am #{age} years old."
 end
 greeting(name, age)
+
+# Array
+fruits = ["apple", "banana", "cherry"]
+puts fruits[0]
+
+# Hash
+person = {
+  name: name,
+  age: age,
+}
+puts person[:name]
+puts person[:age]
+puts person
