@@ -13,7 +13,7 @@ people = [
 ]
 
 people.each_with_index do |p, i|
-  puts "Person ##{i + 1}"
+  puts "\nPerson ##{i + 1}"
   p.greeting
   p.tellHeight
 end
